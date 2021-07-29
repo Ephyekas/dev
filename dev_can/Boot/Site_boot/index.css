@@ -1,0 +1,79 @@
+@font-face
+{
+    font-family: "gazelle";
+    src:url(typo/Gazelle.ttf)
+}
+body
+{
+    position:relative;
+}
+div .nav-link
+{
+    color:white;
+}
+.navbar
+{
+    background-image: url(Img/640x410_trilogie-samedi-reprend-6ter-mardi.jpg);
+}
+
+.container-fluid
+{
+    color: white;
+}
+a:hover
+{
+    background-color: rgb(255, 255, 255);
+}
+.titre_deco
+{
+    text-align:center;
+    padding: 20px;
+    font-family: "gazelle",Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+.card_haut
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.card_bas
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-img-top
+{
+    width:280px;
+    height: 400px;
+}
+
+#about
+{
+    text-align: center;
+    color:white;
+    background:rgb(0, 6, 37);
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#A_propos
+{
+    border:rgb(214, 214, 214) 2px dashed ;
+}
+
+.contact1
+{
+    text-align: center;
+
+}

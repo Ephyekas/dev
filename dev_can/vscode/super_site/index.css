@@ -1,0 +1,105 @@
+
+body
+{
+    background: linear-gradient(90deg, rgb(83, 83, 87), white);
+    background-image: url(https://thumbs.gfycat.com/GreatEnergeticHummingbird-small.gif);
+    
+}
+header
+{
+    text-align: center;
+    
+}
+#un
+{
+    color:#0B0B61;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px dashed black;
+    border-radius: 20px /10px;
+    width:7em;
+    margin: auto;
+    
+
+}
+
+.debut_titre {
+    color:#A70404;
+
+}
+
+
+ol
+{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    border: 2px dashed black;
+    padding: 5px;
+    background-image: url(unnamed.png);
+    background-size:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+}
+
+p em
+{
+    color:blue;
+}
+img
+{
+    width:30%;
+    height:50%;
+    float: right;
+}
+
+/* p{
+    clear: right;
+} */
+
+
+a:visited {
+    text-decoration:none;
+}
+
+a:hover   {
+    text-decoration:underline;
+    color:blue;
+}
+
+a
+{
+    color:#A70404;
+    text-decoration:line-through;
+}
+
+h1 + h2
+{
+    color:greenyellow;
+}
+
+a[title]
+{
+    color:#f1f500;
+}
+
+/* a[title="ciliquez ici" prend tout les mots. a[title*="ici" prend tout les titres ou le mot "ici apparait. 
+Faire des bordure pour voir la place que prenne les éléments. a:focus encadre par defaut en bleu; overflow:scroll; word-wrap:break-word*/
+
+td,th
+{
+    border:2px solid red;
+    
+}
+
+table
+
+{
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+
+#mdp:required
+{
+    color:#A70404;
+}

@@ -1,0 +1,70 @@
+#graff
+{
+    transform: scale(2/*horizontal*/, 0.3/*vertical*/);
+}
+
+#chien
+{
+    /* transform-origin: top 0 left 30px; 
+    transform: rotate(15deg);*/
+
+    /* transform: translate(300px, 40px); deplace l'image */
+    /* transform: skew(-20deg); */
+    transform: scale(0.3) rotate(45deg) skewY(10deg); /*l'ordre change le resultat*/
+
+}
+
+#teste
+{
+    width:200px;
+    height:150px;
+    background-color: blue;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 0.45s;
+}
+
+#teste:hover
+
+{
+    background-color:red;
+}
+
+#cube
+{
+    width:200px;
+    height:150px;
+    background-color: blue;
+    /* transition-timing-function: cubic-bezier(.43,-0.83,.53,1.73); */
+    transition: background-color 6s ease, width 1s linear
+}
+
+#cube:hover
+{
+    background-color:red;
+    width:500px;
+}
+
+@keyframes monanimation
+{
+     0% { 
+         transform: translateX(0px);
+     }
+     50%{ 
+        transform: translateX(150px);
+     }
+     100% {  transform: translateX(150px) rotate(30turn);
+    }
+}
+
+#ani
+{
+    width:200px;
+    height:150px;
+    background-color: rgb(255, 0, 0);
+}
+
+#ani:hover
+{
+    animation: monanitation 2s;
+}

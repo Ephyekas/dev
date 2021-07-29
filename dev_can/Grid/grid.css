@@ -1,0 +1,51 @@
+header
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+}
+
+h1
+{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+div
+{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+ul
+{
+    display:grid;
+    grid-template-columns:repeat(5, 1fr);
+}
+
+li
+{
+    margin:10px
+}
+
+article
+{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(1fr 2fr 1fr);
+
+}
+
+#un
+{
+    grid-column:1;
+}
+#deux
+{
+    grid-column:2;
+}
+#trois
+{
+    grid-column:3;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head><meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="html" href="contact.html">
+
+    
+        <title>Titre</title>
+    </head>
+    <body>
+
+        <header>
+            <h1 id="un"><span class="debut_titre">Ciné'</span>Graff</h1>
+            <h2>Regardez comme mon site est génial !</h2>
+        </header>
+
+        <nav>
+            <ol>
+                <li>Accueil</li>
+                <li>Photo</li>
+                <li>Forum</li>
+            </ol>
+        </nav>
+        <img src="61lNjNpof6L._AC_SY450_.jpg"/>
+        <!-- petit com' -->
+
+
+
+        <h1>C'est l'histoire de la vie !</h1>
+        <h2>Voici la vie</h2>
+        <p>Bllblb<br/>lblb <strong>lbl</strong></p>
+        <p>blb <em>lbl</em> blblzddgtgtgtt<mark>gsd</mark>zdztgtg b</p>
+        
+        <ul>
+            <li>Dire bonjour</li>
+            <li> Acheter à manger</li>
+                <ul>
+                    <li>Faire mockup connexion</li>
+                    <li>Faire mockup register</li>
+                    <li>rédac</li>
+                </ul>
+            
+            <li>Mettre à jour</li>
+            </ul>
+
+            <a href="https://rgbcolorcode.com/" target="blank">Un site génial</a>
+            <a href="secret/truc.html" title="bleu">Truc</a>
+<!-- ctrl - espace -->
+            <a href="#ancre-social">dedede</a> 
+            <!-- ancre pour allez vers les " lien" désiré -->
+            <h3 >hytjytj</h3>
+            
+            <figure>
+            <a href="secret/truc.html#photo" >photo</a>
+                
+               <figcaption>s'alligne sous la photo </figcaption>
+        </figure>
+            <!-- <a href='mailto:djdjd@outloak.fr'> Ecrivez moi</a>
+            href='ficher.zip' ( telecharger fichier) -->
+
+            <table>
+                
+                
+                <tfoot>
+                    <tr>
+                        <th>Prénom</th>
+                       <th>Age</th>
+                        <th>Sexe</th>
+                    </tr>
+                </tfoot>
+                
+                <tbody><tr>
+                    <td colspan="2">Marie</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td rowspan="2">45</td>
+                    <td>homme</td>
+                </tr>
+            </tbody>
+                
+            </table>
+
+            <audio
+            controls
+            src="/media/cc0-audio/t-rex-roar.mp3"> Your browser does not support the<code>audio</code> element.</audio>
+         <!-- preload : charge la musique avant la page 
+
+         <video controls width="250">
+
+            <source src="/media/cc0-videos/flower.webm"
+                    type="video/webm">
+        
+            <source src="/media/cc0-videos/flower.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+
+        <video src="dkejh.mp4" controls 
+        poster="image.jpg"
+        width="500" height="300"></video>
+         poster : afficher une image avant de lancer la video. iframe youtube partager -->
+        
+        
+        <h1>Formulaire</h1>
+        <form method="post" action=" .php">
+
+            <fieldset>
+
+            <legend>Renseigner les informations</legend>
+            <label for="pseudo" >Pseudo</label>
+            <input type="text" name='pseudo' id="pseudo" value="Pseudo" autofocus required> <!--size, maxlength, value, placeholder ( met " pseudo dans le champs")-->
+
+            <!--On dispose de pseudo-formats en CSS  ( :required  ) ( :invalid  ).
+             N'oubliez pas non plus que vous disposez du pseudo-format :focus  pour changer l'apparence d'un champ lorsque le curseur se trouve à l'intérieur.-->
+
+            <p><label for="mdp">Mot de passe</label>
+            <input type="password" name='mdp' id="mdp" size="30" maxlength="8" placeholder="Mot de passe">
+            </p>
+            <textarea name="description" id='description' rows="5" cols="40"></textarea>
+
+            <p><input type="email" name="mail" id="mail" placeholder="Votre mail">
+            <input type="url" name="monsite" id="monsite" placeholder="url">
+            <input type="tel" name="phone" id="phone" placeholder="Numéro de téléphone">
+            <input type="number" name="nombre" id="nombre"> <!--min, max, step (le pas de déplacement)-->
+            <input type="range" name="qte" id="qte">
+            <input type="color" name="couleur" id="couleur"></p>
+            <!-- <input type="submit" value="Subscribe!"> -->
+            <input type="date" name="date" id="date>"> <!-- type =" time" (week, month,datetime(jetlag), datetime-local)-->
+            <input type="search" name="recherche" id="recherche">
+            <input type="submit" value="Envoyer">
+
+            </fieldset>
+            
+            <p>Vos articles</p>
+            <p>
+                <input type="checkbox" name="objet1" id="objet1" value="objet1">
+                <laberl for="objet1" id="objet1">objet1</laberl> 
+                <input type="checkbox" name="objet2" id="objet2">
+                <laberl for="objet2" id="objet2">objet2</laberl>
+                <input type="checkbox" name="objet3" id="objet3" checked >
+                <laberl for="objet3" id="objet3" >objet3</laberl>
+            </p>
+
+            <p>Votre situation <br>
+                <input type="radio" name="situation" value="maried" id="situation">
+                <label for="maried">Marié</label> <br>
+                <input type="radio" name="situation" value="single" id="single">
+                <label for="single">Célibataire</label> <br>
+                <input type="radio" name="situation" value="divorced" id="divorced">
+                <label for="divorced">Divorcé</label> <!--meme name-->
+                </p>
+
+                <p>
+                    <label for="pays">La marque</label>
+                    <select id="pays" name="pays">
+                        <optgroup label="Francaise">
+                        <option value="peugot" selected>Peugot</option>
+                        <option value="renault">renault</option>
+                        <option value="opel">opel</option>
+                    </optgroup>
+                    </select>
+                </p>
+
+                
+                <input type="reset" value="Mise à zéro">
+                <input type="image" value="image" src="images">
+                <input type="button" value="Envoyer">
+                <button class="favorite styled" type="button" id="ancre-social">Add to favorites</button>
+
+
+        </form>
+
+       
+
+
+    </body>
+</html>
